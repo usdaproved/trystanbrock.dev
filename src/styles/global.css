@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+body{
+    @apply bg-orange-100;
+}
+
+/* We need to define the posts styles since we can't add the styles directly to them. */
+.post h2{
+    @apply font-semibold text-2xl mt-5 mb-2 ml-16;
+}
+
+.post p{
+    text-indent: 2rem;
+}
+
+.post a{
+    @apply underline;
+}
+
+@tailwind utilities;
