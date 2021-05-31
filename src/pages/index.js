@@ -11,7 +11,7 @@ export default function Home({ data }) {
   <Layout>
     <header className="flex flex-col ml-5 md:ml-16 m-20">
       <h1 className="font-semibold text-4xl tracking-tight">Trystan Brock</h1>
-      <h5 className="ml-3 font-mono text-xl font-thin text-gray-700">— Web Developer</h5>
+      <h5 className="ml-3 font-mono text-xl font-thin text-gray-700">— Software Developer</h5>
     </header>
     <div className="ml-5 mr-5 mb-10 max-w-5xl text-lg">
       I am looking for work, email me@trystanbrock.dev
